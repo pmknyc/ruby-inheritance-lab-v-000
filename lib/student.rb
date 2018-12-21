@@ -1,6 +1,7 @@
 class Student < User
 
 attr_accessor :knowledge
+@@new_student = nil
 
   def initialize
     @knowledge = []
@@ -8,7 +9,7 @@ attr_accessor :knowledge
   #  @last_name = last_name
   end
 
-  def new_student(obj_name)
+  def self.new_student(obj_name)
     obj_name = Student.new
   end
 
