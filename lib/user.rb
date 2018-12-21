@@ -8,8 +8,4 @@ class User
     obj_name = User.new(first_name, last_name)
   end
 
-  new_user(jim, "Jim", "Jones")
-  jim.learn(some_knowledge)
-
-
 end  #class end
