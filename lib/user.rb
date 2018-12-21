@@ -5,6 +5,7 @@ class User
   jim = User.new
   jim.first_name = "Jim"
   jim.last_name = "Jones"
+  jim.learn(some_knowledge)
 
   def new_user
   end
