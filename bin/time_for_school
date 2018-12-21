@@ -21,4 +21,4 @@ jim_knowledge = avi.teach
 jim.learn(jim_knowledge)
 jim.learn(some_knowledge)
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts "Jim learned this from Avi: #{jim.knowledge} and #{some_knowledge}."
+puts "Jim learned this from Avi: #{jim.knowledge.join(", ")}."
