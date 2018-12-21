@@ -1,16 +1,11 @@
 class Student < User
 
 attr_accessor :knowledge
-@@new_student = nil
 
   def initialize
     @knowledge = []
   #  @first_name = first_name
   #  @last_name = last_name
-  end
-
-  def self.new_student(obj_name)
-    obj_name = Student.new
   end
 
   def learn(string)
