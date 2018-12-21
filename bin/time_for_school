@@ -7,15 +7,14 @@ require_relative "../lib/student.rb"
 steve = Student.new
 steve.first_name = "Steve"
 steve.last_name = "Jobs"
+new_student(jim, "Jim", "Jones")
 
 avi = Teacher.new
 avi.first_name = "Avi"
 avi.last_name = "Flombaum"
 
-
 some_knowledge = avi.teach
 steve.learn(some_knowledge)
-new_user(jim, "Jim", "Jones")
 jim.learn(some_knowledge)
 
 
