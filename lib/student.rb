@@ -8,8 +8,8 @@ attr_accessor :knowledge
   #  @last_name = last_name
   end
 
-  def new_student(obj_name,first_name,last_name)
-    obj_name = Student.new(first_name, last_name)
+  def new_student(obj_name)
+    obj_name = Student.new
   end
 
   def learn(string)
